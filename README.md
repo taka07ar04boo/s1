@@ -3,8 +3,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 > [!WARNING]
-> **Temporary/Experimental Release (仮公開) - Experimental Voyage (実験公開/実験航海)**
-> This software is currently in an experimental phase. Use with caution as this is an experimental voyage into sovereign autonomous systems.
+> **Experimental Release (実験公開)**
+> This software is currently in an experimental phase. Use with caution.
 
 This repository contains the standalone S1 Sovereign Architecture, including its governance engine, automated task processing, and meta-learning models, refactored into a fully distributable Python package.
 
