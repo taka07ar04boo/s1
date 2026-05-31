@@ -10,7 +10,7 @@ import os
 import json
 import logging
 from datetime import datetime
-from a3_db import A3Database
+from .db import A3Database
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s [WaterfallOrchestrator] %(levelname)s: %(message)s')
 log = logging.getLogger("WaterfallOrchestrator")

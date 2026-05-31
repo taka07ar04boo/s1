@@ -1,6 +1,6 @@
 import time
 import os
-from db_config import get_safe_connection
+from .db import get_safe_connection
 
 def process_until_empty():
     conn = get_safe_connection()

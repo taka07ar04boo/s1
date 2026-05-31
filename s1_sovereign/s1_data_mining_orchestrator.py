@@ -4,7 +4,7 @@ import subprocess
 import os
 import re
 import time
-from db_config import get_safe_connection
+from .db import get_safe_connection
 
 def main():
     conn = get_safe_connection()
