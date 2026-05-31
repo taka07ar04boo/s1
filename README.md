@@ -5,6 +5,9 @@
 > [!WARNING]
 > **Experimental Release (実験公開)**
 > This software is currently in an experimental phase. Use with caution.
+> 
+> **Disclaimer (免責事項)**
+> This software is provided "as is". Its use is entirely at the user's own risk (使用は自己責任で). The authors and contributors will not be held liable for any damages arising from its use.
 
 This repository contains the standalone S1 Sovereign Architecture, including its governance engine, automated task processing, and meta-learning models, refactored into a fully distributable Python package.
 
