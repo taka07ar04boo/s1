@@ -1,5 +1,11 @@
 # S1 Sovereign Architecture
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+> [!WARNING]
+> **Temporary/Experimental Release (仮公開) - Experimental Voyage (実験公開/実験航海)**
+> This software is currently in an experimental phase. Use with caution as this is an experimental voyage into sovereign autonomous systems.
+
 This repository contains the standalone S1 Sovereign Architecture, including its governance engine, automated task processing, and meta-learning models, refactored into a fully distributable Python package.
 
 ## Package Structure
@@ -29,3 +35,7 @@ s1-sovereign --help
 - **Waterfall Orchestrator**: `s1-sovereign waterfall`
 
 **Note**: All sensitive credentials have been replaced with environment variables loaded via `python-dotenv`.
+
+## Contributing
+
+We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for more details on how to set up your environment, adhere to the S1 Sovereign Codex, and submit Pull Requests. Be sure to also review our [Code of Conduct](CODE_OF_CONDUCT.md).
