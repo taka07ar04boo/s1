@@ -11,6 +11,14 @@
 
 This repository contains the standalone S1 Sovereign Architecture, including its governance engine, automated task processing, and meta-learning models, refactored into a fully distributable Python package.
 
+## Manifesto (理念)
+
+> **"Do not control AI in Python's memory. If the process dies, it's over."**
+> （Pythonのメモリ上でAIを制御するな。プロセスが死ねば終わる。）
+
+既存のAIエージェントフレームワークの多くはプロセス（インメモリ）への依存度が高く、エラーやタイムアウトで容易に死滅します。S1 Sovereign Architectureは、この脆さを克服するために**「データベース主権（DB Sovereignty）」**を採用しています。
+AIは単なるステートレスな「ワーカー」として振る舞い、タスクキュー、状態管理、ガバナンス（ルール逸脱の防止）、トランザクション制御のすべてを**PostgreSQLが物理的に統治**します。エージェントが死んでも、DBが状態を保持し、別のエージェントが再開します。
+
 ## Package Structure
 - `s1_sovereign/`: Main Python package containing S1 automation, monitoring, and orchestrator scripts.
 - `sql/`: PostgreSQL logic for S1 governance rules, loophole auditing, and task execution.
